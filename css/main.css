@@ -8,8 +8,23 @@ html {
     box-sizing: inherit;
 }
 
+/* Boilerplate code from https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L107-L169 to hide headings that are in place for screen readers */
+.visuallyhidden {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
 body {
     font-family: 'Fira Sans Condensed', sans-serif;
+    color: #1f1d25;
     background-image: url(../img/unryu_background.jpg);
     background-size: cover;
     background-repeat: repeat-y;
@@ -48,4 +63,41 @@ header p {
 header h1 {
     margin-top: 1.8rem;
     margin-bottom: 0.1rem;
+}
+
+header p {
+    padding-bottom: 3%;
+}
+
+#logo-box {
+    background-color: #ffffff;
+    width: 90%;
+    padding: 2%;
+}
+
+#logo-box figure {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#logo-box figure img {
+    width: 100%;
+}
+
+#logo-box figure:first-of-type {
+    width: 60%;
+    margin-left: 0;
+    margin-right: 5%;
+}
+
+#logo-box figure:first-of-type figcaption {
+    width: 160%;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+#logo-box figure:last-of-type {
+    width: 24%;
+    margin-left: 9%;
+    margin-right: 0;
 }
