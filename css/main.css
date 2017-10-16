@@ -1,0 +1,23 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+h1 {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Vollkorn', serif;
+    font-weight: bold;
+}
