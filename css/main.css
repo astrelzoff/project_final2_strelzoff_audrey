@@ -125,3 +125,45 @@ header p {
 #colors figure:nth-of-type(2n) {
     margin-right: 0;
 }
+
+#buttons {
+    max-width: 582px;
+}
+
+#buttons figure {
+    display: inline-block;
+    vertical-align: top;
+    width: 47%;
+    margin: 0 4% 4% 0;
+}
+
+#buttons figure:nth-of-type(2n) {
+    margin-right: 0;
+}
+
+#buttons figure figcaption {
+    font-family: 'Vollkorn', serif;
+    font-weight: bold;
+    color: #f9f1b1;
+    font-size: 1.5rem;
+    text-align: center;
+    position: relative;
+    margin-top: -25%;
+}
+
+#buttons figure#newsletter figcaption {
+    margin-top: -31%;
+    color: #464646;
+}
+
+#buttons figure img {
+    filter: drop-shadow();
+}
+
+.drop-shadow {
+    -webkit-filter: drop-shadow(0 1px 3px rgba(31, 29, 37, 0.5));
+    -moz-filter: drop-shadow(0 1px 3px rgba(31, 29, 37, 0.5));
+    -ms-filter: drop-shadow(0 1px 3px rgba(31, 29, 37, 0.5));
+    -o-filter: drop-shadow(0 1px 3px rgba(31, 29, 37, 0.5));
+    filter: drop-shadow(0 1px 3px rgba(31, 29, 37, 0.5));
+}
