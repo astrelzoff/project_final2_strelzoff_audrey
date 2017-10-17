@@ -115,3 +115,13 @@ header p {
 #images figure img:hover {
     border: 1rem solid rgba(31, 29, 37, 0.85);
 }
+
+#colors figure {
+    display: inline-block;
+    width: 47%;
+    margin: 0 4% 4% 0;
+}
+
+#colors figure:nth-of-type(2n) {
+    margin-right: 0;
+}
