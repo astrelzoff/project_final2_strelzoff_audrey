@@ -141,7 +141,7 @@ header p {
 
 #buttons {
     max-width: 582px;
-    padding-bottom: 3rem;
+    padding-bottom: 6rem;
 }
 
 
@@ -150,6 +150,7 @@ header p {
     display: inline-block;
     vertical-align: top;
     width: 47%;
+    max-width: 220px;
     margin: 0 4% 4% 0;
 }
 
@@ -165,7 +166,7 @@ header p {
     text-align: center;
     position: absolute;
     width: 100%;
-    margin: 20% auto 0 auto;
+    margin: 16% auto 0 auto;
     z-index: 99999;
 }
 
@@ -221,6 +222,11 @@ header p {
     filter: drop-shadow(0 1px 3px rgba(31, 29, 37, 0.5));
 }
 
+aside p {
+    max-width: 750px;
+}
+
+
 #fonts span.lighter p {
     margin: 0;
     color: #555555;
@@ -268,6 +274,13 @@ footer {
     }
 }
 
+@media all and (min-width: 420px) {
+
+    #buttons figure figcaption {
+        font-size: 1.2rem;
+    }
+}
+
 @media all and (min-width: 500px) {
 
     #container {
@@ -293,6 +306,23 @@ footer {
         width: 59.5%;
         margin: 1em 0 1em 0;
     }
+
+    #colors figure,
+    #colors figure:nth-of-type(2n) {
+        width: 22%;
+        margin: 0 3% 4% 0;
+        vertical-align: top;
+    }
+
+    #colors figure:nth-of-type(4n) {
+        margin-right: 0;
+    }
+
+    #buttons figure figcaption {
+        font-size: 1.4rem;
+    }
+
+
 }
 
 @media all and (min-width: 600px) {
@@ -323,6 +353,18 @@ footer {
     #logo-box {
         width: 80%;
     }
+
+    #colors figure,
+    #colors figure:nth-of-type(2n),
+    #colors figure:nth-of-type(4n) {
+        width: 17%;
+        margin: 0 3% 4% 0;
+        vertical-align: top;
+    }
+
+    #colors figure:nth-of-type(5n) {
+        margin-right: 0;
+    }
 }
 
 @media all and (min-width: 800px) {
@@ -350,6 +392,21 @@ footer {
     .clearfix {
         clear: both;
     }
+}
 
+@media all and (min-width: 1000px) {
 
+    main {
+        width: 55%;
+        float:left;
+    }
+
+    aside {
+        width: 43%;
+        float: right;
+    }
+
+    footer {
+        clear: both;
+    }
 }
