@@ -51,6 +51,7 @@ h3 {
 
 #container {
     width: 96%;
+    max-width: 1100px;
     margin: auto;
     position: relative;
     top: 8rem;
@@ -98,6 +99,7 @@ header p {
 
 #logo-box figure:first-of-type {
     width: 60%;
+    max-width: 325px;
     margin-left: 0;
     margin-right: 5%;
 }
@@ -252,4 +254,87 @@ footer {
     background-color: rgba(251, 251, 251, 0.8);
     bottom: -7rem;
     padding: 2%;
+}
+
+
+@media all and (min-width: 400px) {
+
+    #container {
+        top: 10rem;
+    }
+
+    footer {
+        bottom: -10rem;
+    }
+
+    #logo-box {
+        width: 88%;
+    }
+}
+
+@media all and (min-width: 500px) {
+
+    #container {
+        top: 12rem;
+    }
+
+    footer {
+        bottom: -12rem;
+    }
+
+    #logo-box {
+        width: 85%;
+    }
+}
+
+@media all and (min-width: 600px) {
+
+    #container {
+        top: 13rem;
+    }
+
+    footer {
+        bottom: -13rem;
+    }
+
+    #logo-box {
+        width: 83%;
+    }
+}
+
+@media all and (min-width: 700px) {
+
+    #container {
+        top: 15rem;
+    }
+
+    footer {
+        bottom: -15rem;
+    }
+
+    #logo-box {
+        width: 80%;
+    }
+}
+
+@media all and (min-width: 700px) {
+
+    #container {
+        top: 11rem;
+
+    }
+
+    footer {
+        bottom: -11rem;
+    }
+
+    #logo-box {
+        position: absolute;
+        top: 2rem;
+        max-width: 650px;
+    }
+
+    #logo-box figure:last-of-type {
+        float: right;
+    }
 }
