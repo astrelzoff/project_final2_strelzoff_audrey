@@ -54,6 +54,7 @@ h3 {
     margin: auto;
     position: relative;
     top: 8rem;
+    margin-bottom: 2rem;
 }
 
 header {
@@ -225,4 +226,30 @@ header p {
 #fonts span.lighter p {
     margin: 0;
     color: #555555;
+}
+
+p#link {
+    width: 4rem;
+    padding: 0;
+    color: #406fb6;
+    text-align: center;
+    margin: 3rem auto;
+
+}
+
+p#link:hover {
+    text-decoration: underline;
+}
+
+p#link:active {
+    color: #84449a;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 3.5rem;
+    background-color: rgba(251, 251, 251, 0.8);
+    bottom: -7rem;
+    padding: 2%;
 }
