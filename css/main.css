@@ -161,7 +161,7 @@ header p {
 #buttons figure figcaption {
     font-family: 'Vollkorn', serif;
     font-weight: bold;
-    color: #f9f1b1;
+    color: #faf185;
     font-size: 1rem;
     text-align: center;
     position: absolute;
@@ -170,13 +170,13 @@ header p {
     z-index: 99999;
 }
 
-#buttons figure figcaption.two {
+#buttons figure figcaption.one-2 {
     opacity: 0;
 }
 
 #buttons figure#newsletter figcaption {
     margin: 10% auto 0 auto;
-    color: #464646;
+    color: #1f1d25;
     z-index: 99999;
 }
 
@@ -199,12 +199,20 @@ header p {
     opacity: 0;
 }
 
+#buttons figure div:hover > figcaption.one-1 {
+    color: #ed1c24;
+}
+
+#buttons figure#newsletter div:hover > figcaption.two {
+    color: #faf185;
+}
+
 #buttons figure div:active > .middleimg,
-#buttons figure div:active > figcaption.one {
+#buttons figure div:active > figcaption.one-1 {
     opacity: 0;
 }
 
-#buttons figure div:active > figcaption.two {
+#buttons figure div:active > figcaption.one-2 {
     opacity: 1;
 }
 
