@@ -107,7 +107,7 @@ header p {
 #logo-box figure:first-of-type figcaption {
     width: 160%;
     font-weight: bold;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
 }
 
 #logo-box figure:last-of-type {
@@ -272,6 +272,11 @@ footer {
     #logo-box {
         width: 88%;
     }
+
+    #logo-box figure:first-of-type figcaption {
+        font-size: 0.85rem;
+        padding-top: 1%;
+    }
 }
 
 @media all and (min-width: 420px) {
@@ -293,6 +298,11 @@ footer {
 
     #logo-box {
         width: 85%;
+    }
+
+    #logo-box figure:first-of-type figcaption {
+        font-size: 1.1rem;
+        padding-top: 1.2%;
     }
 
     #images figure {
@@ -338,6 +348,11 @@ footer {
     #logo-box {
         width: 83%;
     }
+
+    #logo-box figure:first-of-type figcaption {
+        font-size: 1.3rem;
+        padding-top: 1.2%;
+    }
 }
 
 @media all and (min-width: 700px) {
@@ -352,6 +367,11 @@ footer {
 
     #logo-box {
         width: 80%;
+    }
+
+    #logo-box figure:first-of-type figcaption {
+        font-size: 1.5rem;
+        padding-top: 1.2%;
     }
 
     #colors figure,
@@ -376,6 +396,10 @@ footer {
 
     footer {
         bottom: -11rem;
+    }
+
+    header h1 {
+        font-size: 1.4rem;
     }
 
     #logo-box {
