@@ -120,6 +120,10 @@ main figcaption {
     border: 1rem solid rgba(31, 29, 37, 0.85);
 }
 
+#textures figure img {
+    box-shadow: 2px 3px 4px rgba(31, 29, 37, 0.5);
+}
+
 #colors figure {
     position: relative;
     display: inline-block;
@@ -350,8 +354,6 @@ footer {
     #buttons figure figcaption {
         font-size: 1.4rem;
     }
-
-
 }
 
 @media all and (min-width: 600px) {
