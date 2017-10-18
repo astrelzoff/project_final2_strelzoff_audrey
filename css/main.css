@@ -121,14 +121,29 @@ main figcaption {
 }
 
 #colors figure {
+    position: relative;
     display: inline-block;
     width: 47%;
     margin: 0 4% 4% 0;
 }
 
 #colors figure figcaption {
-    color: #555555;
+    color: rgba(31, 29, 37, 0.7);
+    position: absolute;
+    padding: 2%;
+    width: 100%;
+    margin: auto;
+    bottom: 0;
+    background-color: rgba(251, 251, 251, 0.5);
+    margin-bottom: 0.2rem;
+    transition: opacity 0.25s linear;
+    opacity: 0;
 }
+
+#colors figure:hover > figcaption {
+    opacity: 1;
+}
+
 
 
 #colors figure:nth-of-type(2n) {
