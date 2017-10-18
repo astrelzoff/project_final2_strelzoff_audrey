@@ -86,6 +86,7 @@ header p {
     background-color: #ffffff;
     width: 90%;
     padding: 2%;
+    box-shadow: 2px 3px 4px rgba(31, 29, 37, 0.5);
 }
 
 #logo-box figure {
