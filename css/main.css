@@ -108,6 +108,10 @@ header p {
     font-size: 0.75rem;
 }
 
+main figcaption {
+    text-align: center;
+}
+
 #images figure img {
     border: 1rem solid #1f1d25;
 }
