@@ -272,6 +272,14 @@ p#link:active {
     color: #84449a;
 }
 
+#logo2 {
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 10% 12% 12% 10%;
+    width: 50%;
+    margin: auto;
+}
+
 footer {
     position: relative;
     width: 100%;
