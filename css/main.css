@@ -91,29 +91,20 @@ header p {
 #logo-box figure {
     display: inline-block;
     vertical-align: top;
+    width: 75%;
+    max-width: 325px;
+    margin-left: 0;
+    margin-right: 5%;
 }
 
 * figure img {
     width: 100%;
 }
 
-#logo-box figure:first-of-type {
-    width: 60%;
-    max-width: 325px;
-    margin-left: 0;
-    margin-right: 5%;
-}
-
-#logo-box figure:first-of-type figcaption {
+#logo-box figure figcaption {
     width: 160%;
     font-weight: bold;
     font-size: 0.75rem;
-}
-
-#logo-box figure:last-of-type {
-    width: 24%;
-    margin-left: 9%;
-    margin-right: 0;
 }
 
 #images figure img {
@@ -281,7 +272,7 @@ footer {
         width: 88%;
     }
 
-    #logo-box figure:first-of-type figcaption {
+    #logo-box figure figcaption {
         font-size: 0.85rem;
         padding-top: 1%;
     }
@@ -308,7 +299,7 @@ footer {
         width: 85%;
     }
 
-    #logo-box figure:first-of-type figcaption {
+    #logo-box figure figcaption {
         font-size: 1.1rem;
         padding-top: 1.2%;
     }
@@ -357,7 +348,7 @@ footer {
         width: 83%;
     }
 
-    #logo-box figure:first-of-type figcaption {
+    #logo-box figure figcaption {
         font-size: 1.3rem;
         padding-top: 1.2%;
     }
@@ -377,7 +368,7 @@ footer {
         width: 80%;
     }
 
-    #logo-box figure:first-of-type figcaption {
+    #logo-box figure figcaption {
         font-size: 1.5rem;
         padding-top: 1.2%;
     }
@@ -421,10 +412,6 @@ footer {
         max-width: 650px;
     }
 
-    #logo-box figure:nth-of-type(2) {
-        float: right;
-    }
-
     .clearfix {
         clear: both;
     }
@@ -434,7 +421,7 @@ footer {
 
     main {
         width: 55%;
-        float:left;
+        float: left;
     }
 
     aside {
