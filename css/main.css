@@ -340,6 +340,17 @@ footer {
         margin: 1em 0 1em 0;
     }
 
+    #textures figure {
+        position: relative;
+        display: inline-block;
+        width: 47%;
+        margin: 0 4% 4% 0;
+    }
+
+    #textures figure:last-of-type {
+        margin-right: 0;
+    }
+
     #colors figure,
     #colors figure:nth-of-type(2n) {
         width: 22%;
