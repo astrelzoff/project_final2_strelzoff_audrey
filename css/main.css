@@ -254,11 +254,24 @@ aside p {
 #fonts {
     background-color: rgba(251, 251, 251, 0.5);
     padding: 0.1% 3% 3% 3%;
+    position: relative;
 }
+
+ul#adjectives {
+    list-style-type: none;
+    vertical-align: top;
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
+    text-align: center;
+    color: #406fb6;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
 
 #fonts span.lighter p {
     margin: 0;
-    color: rgba(31, 29, 37, 0.7);
 }
 
 h4 a {
