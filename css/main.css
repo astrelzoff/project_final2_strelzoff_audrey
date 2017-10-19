@@ -506,6 +506,10 @@ footer {
         float: left;
     }
 
+    ul#adjectives {
+        line-height: 1.7rem;
+    }
+
     aside {
         width: 43%;
         float: right;
@@ -577,4 +581,8 @@ footer {
         line-height: 1.5rem;
     }
 
+    ul#adjectives {
+        line-height: 2rem;
+        font-size: 1.7rem;
+    }
 }
