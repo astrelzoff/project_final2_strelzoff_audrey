@@ -502,3 +502,35 @@ footer {
         clear: both;
     }
 }
+
+
+@media all and (min-width: 1200px) {
+
+    main {
+        width: 55%;
+    }
+
+    main #column1,
+    main #column2 {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    main #column1 {
+        width: 65%;
+    }
+
+    main #column2 {
+        width: 30%;
+        margin-left: 3%;
+    }
+
+    #textures figure {
+        width: 100%;
+    }
+
+    #logo2 {
+        position: relative;
+        bottom: -4rem;
+    }
+}
