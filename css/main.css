@@ -531,6 +531,19 @@ footer {
 
     #logo2 {
         position: relative;
-        bottom: -4rem;
+        bottom: -9rem;
     }
+
+    #colors figure,
+    #colors figure:nth-of-type(2n),
+    #colors figure:nth-of-type(5n) {
+        width: 30%;
+        margin: 0 3% 4% 0;
+        vertical-align: top;
+    }
+
+    #colors figure:nth-of-type(3n) {
+        margin-right: 0;
+    }
+
 }
