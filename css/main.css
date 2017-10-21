@@ -288,8 +288,9 @@ ul#adjectives {
     font-style: italic;
 }
 
-#fonts span.lighter p {
+#fonts div.lighter p {
     margin: 0;
+    color: rgba(31, 29, 37, 0.7);
 }
 
 h4 a {
