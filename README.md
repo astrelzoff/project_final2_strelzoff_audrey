@@ -4,7 +4,7 @@
 
 * [Github link](https://github.com/astrelzoff/project_final2_strelzoff_audrey)
 
-* [Web Host link]()
+* [Web Host link](http://www.strelzoffs.com/project_final2_strelzoff_audrey/)
 
 * [W3C Validator link]()
 
