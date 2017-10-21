@@ -208,49 +208,49 @@ main figcaption {
     z-index: 99999;
 }
 
-#buttons figure div .topimg {
+#buttons figure .topimg {
     z-index: 9999;
     transition: opacity 0.25s linear;
 }
 
-#buttons figure div .middleimg {
+#buttons figure .middleimg {
     z-index: 999;
     transition: opacity 0.25s linear;
 }
 
-#buttons figure div .bottomimg {
+#buttons figure .bottomimg {
     z-index: 9;
     transition: opacity 0.25s linear;
 }
 
 /* Hide top button with opacity:0 on hover */
-#buttons figure div:hover > .topimg {
+#buttons figure:hover > .topimg {
     opacity: 0;
 }
 
 /* Change color of font from yellow to red on hover */
-#buttons figure div:hover > figcaption.one-1 {
+#buttons figure:hover > figcaption.one-1 {
     color: #ed1c24;
 }
 
 /* Change color of font from blue-black to yellow on hover */
-#buttons figure#newsletter div:hover > figcaption.two {
+#buttons figure#newsletter:hover > figcaption.two {
     color: #faf185;
 }
 
 /* Hide middle image and Donate Now figcaption on mouse click  */
-#buttons figure div:active > .middleimg,
-#buttons figure div:active > figcaption.one-1 {
+#buttons figure:active > .middleimg,
+#buttons figure:active > figcaption.one-1 {
     opacity: 0;
 }
 
 /* Reveal Thank you figcaption on click */
-#buttons figure div:active > figcaption.one-2 {
+#buttons figure:active > figcaption.one-2 {
     opacity: 1;
 }
 
 /* Position the button figures stacked on top of one another */
-#buttons figure div img {
+#buttons figure img {
     position: absolute;
     top: 0;
     left: 0;
@@ -490,7 +490,6 @@ footer {
 
     #container {
         top: 11rem;
-
     }
 
     footer {
