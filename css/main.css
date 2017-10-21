@@ -198,8 +198,8 @@ main figcaption {
 }
 
 /* Hide Thank You figcation */
-#buttons figure figcaption.one-2 {
-    opacity: 0;
+#buttons figure figcaption span#one-2 {
+    display: none;
 }
 
 #buttons figure#newsletter figcaption {
@@ -229,24 +229,24 @@ main figcaption {
 }
 
 /* Change color of font from yellow to red on hover */
-#buttons figure:hover > figcaption.one-1 {
+#buttons figure:hover > figcaption span#one-1 {
     color: #ed1c24;
 }
 
 /* Change color of font from blue-black to yellow on hover */
-#buttons figure#newsletter:hover > figcaption.two {
+#buttons figure#newsletter:hover > figcaption#two {
     color: #faf185;
 }
 
 /* Hide middle image and Donate Now figcaption on mouse click  */
 #buttons figure:active > .middleimg,
-#buttons figure:active > figcaption.one-1 {
-    opacity: 0;
+#buttons figure:active > figcaption span#one-1 {
+    display: none;
 }
 
 /* Reveal Thank you figcaption on click */
-#buttons figure:active > figcaption.one-2 {
-    opacity: 1;
+#buttons figure:active > figcaption span#one-2 {
+    display: block;
 }
 
 /* Position the button figures stacked on top of one another */
