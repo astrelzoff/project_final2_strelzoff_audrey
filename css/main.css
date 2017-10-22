@@ -9,11 +9,11 @@ html {
     box-sizing: inherit;
 }
 
-/* Boilerplate code from https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L107-L169 to hide headings that are in place for screen readers */
+
+/* Boilerplate code from https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L107-L169 to hide headings that are in place for screen readers (removed clip-path) */
 .visuallyhidden {
     border: 0;
     clip: rect(0, 0, 0, 0);
-    clip-path: inset(50%);
     height: 1px;
     margin: -1px;
     overflow: hidden;
@@ -258,10 +258,6 @@ main figcaption {
 
 /* Drop shadow for irregular shaped png image of buttons */
 .drop-shadow {
-    -webkit-filter: drop-shadow(0 1px 3px rgba(31, 29, 37, 0.5));
-    -moz-filter: drop-shadow(0 1px 3px rgba(31, 29, 37, 0.5));
-    -ms-filter: drop-shadow(0 1px 3px rgba(31, 29, 37, 0.5));
-    -o-filter: drop-shadow(0 1px 3px rgba(31, 29, 37, 0.5));
     filter: drop-shadow(0 1px 3px rgba(31, 29, 37, 0.5));
 }
 
