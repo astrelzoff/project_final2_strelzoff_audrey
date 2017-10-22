@@ -389,6 +389,7 @@ footer {
         padding-top: 1.2%;
     }
 
+    /* Adjust images figures to be approx. the same height */
     #images figure {
         display: inline-block;
         width: 37.2%;
@@ -401,6 +402,7 @@ footer {
         margin: 1em 0 1em 0;
     }
 
+    /* Reduce size of textures so they will be next to each other */
     #textures figure {
         position: relative;
         display: inline-block;
@@ -412,6 +414,7 @@ footer {
         margin-right: 0;
     }
 
+    /* Reduce size of colors so they will be 4 across */
     #colors figure,
     #colors figure:nth-of-type(2n) {
         width: 22%;
@@ -423,13 +426,16 @@ footer {
         margin-right: 0;
     }
 
+    /* Increase size of button text */
     #buttons figure figcaption {
         font-size: 1.4rem;
     }
 }
 
+/* ****************************** min-width:600px ************************************ */
 @media all and (min-width: 600px) {
 
+    /* Increase relative positioning distance of container from top and match distance on footer */
     #container {
         top: 13rem;
     }
@@ -438,22 +444,27 @@ footer {
         bottom: -13rem;
     }
 
+    /* Decrease logo-box width */
     #logo-box {
         width: 83%;
     }
 
+    /* Increase font size of Title line */
     #logo-box figure figcaption {
         font-size: 1.3rem;
         padding-top: 1.2%;
     }
 
+    /* Adjust images figure to be approx. the same height */
     #images figure:last-of-type {
         width: 59.7%;
     }
 }
 
+/* ****************************** min-width:700px ************************************ */
 @media all and (min-width: 700px) {
 
+    /* Increase relative positioning distance of container from top and match distance on footer */
     #container {
         top: 15rem;
     }
@@ -462,19 +473,23 @@ footer {
         bottom: -15rem;
     }
 
+    /* Decrease logo-box width */
     #logo-box {
         width: 80%;
     }
 
+    /* Increase font size of Title line */
     #logo-box figure figcaption {
         font-size: 1.5rem;
         padding-top: 1.2%;
     }
 
+    /* Adjust images figure to be approx. the same height */
     #images figure:last-of-type {
         width: 60.2%;
     }
 
+    /* Reduce size of colors so they will be 5 across */
     #colors figure,
     #colors figure:nth-of-type(2n),
     #colors figure:nth-of-type(4n) {
@@ -488,8 +503,10 @@ footer {
     }
 }
 
+/* ****************************** min-width:800px ************************************ */
 @media all and (min-width: 800px) {
 
+    /* Decrease relative positioning distance of container from top and match distance on footer */
     #container {
         top: 11rem;
     }
@@ -498,6 +515,7 @@ footer {
         bottom: -11rem;
     }
 
+    /* Increase font sizes of Page title and sub title */
     header h1 {
         font-size: 1.4rem;
     }
@@ -506,6 +524,7 @@ footer {
         font-size: 2.2rem;
     }
 
+    /* Use absolute positioning to push logo-box up over the header block */
     #logo-box {
         position: absolute;
         top: 2rem;
@@ -513,6 +532,7 @@ footer {
         max-width: 650px;
     }
 
+    /* Adjust images figure to be approx. the same height */
     #images figure {
         width: 37%;
     }
