@@ -540,14 +540,12 @@ footer {
     #images figure:last-of-type {
         width: 60.4%;
     }
-
-    .clearfix {
-        clear: both;
-    }
 }
 
+/* ****************************** min-width:1000px ************************************ */
 @media all and (min-width: 1000px) {
 
+    /* Adjust images figure to be approx. the same height */
     #images figure {
         width: 37%;
     }
@@ -556,13 +554,10 @@ footer {
         width: 59%;
     }
 
+    /* Float main to left and aside to right */
     main {
         width: 55%;
         float: left;
-    }
-
-    ul#adjectives {
-        line-height: 1.7rem;
     }
 
     aside {
@@ -573,15 +568,17 @@ footer {
     footer {
         clear: both;
     }
+
+    /* Increase line height of adjectives */
+    ul#adjectives {
+        line-height: 1.7rem;
+    }
 }
 
-
+/* ****************************** min-width:1000px ************************************ */
 @media all and (min-width: 1200px) {
 
-    main {
-        width: 55%;
-    }
-
+    /* Place column inline-block so they will be side by side and align to the top edge */
     main #column1,
     main #column2 {
         display: inline-block;
@@ -597,15 +594,18 @@ footer {
         margin-left: 3%;
     }
 
+    /* Now that the textures are in a narrow block, increase the size so they are stacked vertically */
     #textures figure {
         width: 100%;
     }
 
+    /* Position secondary logo at bottom of page above footer block */
     #logo2 {
         position: relative;
         bottom: -9rem;
     }
 
+    /* Increase size of color blocks to account for narrower width of section to be 3 across */
     #colors figure,
     #colors figure:nth-of-type(2n),
     #colors figure:nth-of-type(5n) {
@@ -618,6 +618,7 @@ footer {
         margin-right: 0;
     }
 
+    /* Adjust Page header on heading block and all final font sizes */
     header h1 {
         margin-top: 1rem;
     }
